@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	padding-top: 75px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+body h1 {
+	font-family: "Metal Mania";
+	font-size: 60px;
+  	text-shadow: 0px 0px 10px #F705E3;
+  	text-align: center;
+}
+
+body h2 {
+	font-family: "Metal Mania";
+	text-shadow: 0px 0px 10px #0DB599;
+}
+body h3 {
+	font-family: "Raleway", sans-serif;
+	text-decoration: underline;
+}
+
+.smaller {
+	font-size: 18px;
+}
+
+.glow {
+	font-family: "Raleway", sans-serif;
+	text-shadow: 0px 0px 10px #0DB599;
+}
+
+p, li {
+	font-family: "Raleway", sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+.align-to-grid,
+.col {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.col {
+  width: 25%;
+  float: left;
+}
+
+.twitter-timeline {
+	margin-top: 200px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .col {
+    float: none;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  iframe {
+    display:none;
+  }
+}
